@@ -1614,7 +1614,7 @@ table {
 .floating-alert {
   position: fixed;
   z-index: 11;
-  bottom: 0px;
+  bottom: 20px;
   right: 0;
   padding: 10px 20px;
   background-color: #333;
