@@ -296,13 +296,13 @@ body {
 /* Membuat modal responsif */
 @media (min-width: 576px) {
   .modal-content {
-    width: 80%;
+    width: 100%;
   }
 }
 
 @media (min-width: 768px) {
   .modal-content {
-    width: 70%;
+    width: 100%;
   }
   
 }
