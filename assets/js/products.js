@@ -75,9 +75,11 @@ function showFloatingAlert(message) {
   let floatingAlert = document.getElementById("floating-alert");
   floatingAlert.textContent = message;
   floatingAlert.style.display = "block";
-
-  // Sembunyikan alert setelah beberapa detik
+  
+  let notificationSound = document.getElementById("notification-sound");
+  // notificationSound.play();
   setTimeout(function () {
     floatingAlert.style.display = "none";
-  }, 4000); // Tampilkan alert selama 3 detik
+    // notificationSound.pause();
+  }, 3000);
 }
