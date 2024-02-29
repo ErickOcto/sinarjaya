@@ -65,7 +65,7 @@ fetch("products.json")
     }
     localStorage.setItem('cart', JSON.stringify(cartItems));
     showFloatingAlert(
-      "Berhasil ditambahkan ke keranjang, reload untuk perbarui keranjang"
+      "Berhasil ditambahkan ke keranjang, klik notif untuk perbarui keranjang"
     );
     updateTotalQuantityUI();
     updateTotalHarga();

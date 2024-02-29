@@ -300,7 +300,7 @@ body {
 /* Membuat modal responsif */
 @media (max-width: 576px) {
   .modal-content {
-    width: 80%;
+    width: 100%;
   }
 }
 
@@ -1614,8 +1614,8 @@ table {
 .floating-alert {
   position: fixed;
   z-index: 11;
-  bottom: 20px;
-  right: 20px;
+  bottom: 0px;
+  right: 0;
   padding: 10px 20px;
   background-color: #333;
   color: #fff;

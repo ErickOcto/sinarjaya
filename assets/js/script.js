@@ -95,6 +95,7 @@ function openModal() {
 
 function closeModal() {
   document.getElementById('modalContainer').style.display = 'none';
+  updateTotalQuantityUI()
 }
 
 function updateTotalHarga() {
@@ -182,14 +183,13 @@ fetch("products.json")
         let productId = event.target.dataset.productId;
         let newQuantity = parseInt(event.target.value);
         updateProductQuantity(productId, newQuantity);
-
-        console.log(productId);
-        console.log(newQuantity);
         updateTotal();
+        updateTotalQuantityUI();
       });
     });
-
+    
     updateTotal();
+    updateTotalQuantityUI();
   })
   .catch((error) => console.error("Error loading JSON data:", error));
 
