@@ -272,6 +272,6 @@ document.addEventListener("DOMContentLoaded", function () {
   sendOrderBtn.onclick = function () {
     modal.style.display = "none";
     localStorage.removeItem("cart");
-    window.open(whatsappLink, "_blank");
+    window.open(whatsappLink);
   };
 });
