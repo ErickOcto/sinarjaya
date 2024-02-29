@@ -286,6 +286,10 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
+.bungkuss{
+  overflow-x: auto;
+}
+
 .modal-content .close {
   color: #aaaaaa;
   float: right;
@@ -294,10 +298,16 @@ body {
 }
 
 /* Membuat modal responsif */
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .modal-content {
-    width: 100%;
+    width: auto;
   }
+}
+
+table{
+  white-space: nowrap;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
 }
 
 @media (min-width: 768px) {
@@ -315,7 +325,7 @@ body {
 
 @media (min-width: 1200px) {
   .modal-content {
-    width: 70%;
+    width: 100%;
   }
   
 }
