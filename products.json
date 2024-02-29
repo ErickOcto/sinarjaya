@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "name": "Produk 1",
+    "image": "product-01.jpg",
+    "price": 100000,
+    "brand": "Brand 1",
+    "timestamp": "31-12-2023",
+    "promo": "",
+    "oldPrice": "",
+    "newPrice": "100.000",
+    "rating": 5,
+    "reviews": 5170
+  },
+  {
+    "id": 2,
+    "name": "Produk 2",
+    "image": "product-02.jpg",
+    "price": 200000,
+    "brand": "Brand 2",
+    "timestamp": "30-12-2023",
+    "promo": "",
+    "oldPrice": "",
+    "newPrice": "200.000",
+    "rating": 5,
+    "reviews": 5170
+  },
+  {
+    "id": 3,
+    "name": "Produk 3",
+    "image": "product-03.jpg",
+    "price": 150000,
+    "brand": "Brand 3",
+    "timestamp": "29-12-2023",
+    "promo": "",
+    "oldPrice": "$38.00",
+    "newPrice": "150.000",
+    "rating": 5,
+    "reviews": 5170
+  },
+  {
+    "id": 4,
+    "name": "Produk 4",
+    "image": "product-04.jpg",
+    "price": 400000,
+    "brand": "Brand 4",
+    "timestamp": "30-12-2023",
+    "promo": "",
+    "oldPrice": "$38.00",
+    "newPrice": "400.000",
+    "rating": 5,
+    "reviews": 5170
+  },
+  {
+    "id": 5,
+    "name": "Produk 5",
+    "image": "product-05.jpg",
+    "price": 150000,
+    "brand": "Brand 5",
+    "timestamp": "29-12-2025",
+    "promo": "",
+    "oldPrice": "$58.00",
+    "newPrice": "150.000",
+    "rating": 5,
+    "reviews": 5170
+  },
+  {
+    "id": 6,
+    "name": "Produk 6",
+    "image": "product-06.jpg",
+    "price": 160000,
+    "brand": "Brand 6",
+    "timestamp": "29-12-2026",
+    "promo": "",
+    "oldPrice": "$68.00",
+    "newPrice": "160.000",
+    "rating": 6,
+    "reviews": 6170
+  }
+]
