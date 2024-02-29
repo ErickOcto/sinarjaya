@@ -300,7 +300,7 @@ body {
 /* Membuat modal responsif */
 @media (max-width: 576px) {
   .modal-content {
-    width: 90%;
+    width: 80%;
   }
 }
 
@@ -319,13 +319,13 @@ table{
 
 @media (min-width: 992px) {
   .modal-content {
-    width: 80%;
+    width: 55%;
   }
 }
 
 @media (min-width: 1200px) {
   .modal-content {
-    width: 80%;
+    width: 55%;
   }
   
 }
@@ -1597,4 +1597,29 @@ table {
 
   .offer .container { gap: 120px; }
 
+}
+
+@media (max-width: 576px) {
+  .mapp{
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .mapp{
+    width: 100%;
+  }
+}
+
+.floating-alert {
+  position: fixed;
+  z-index: 11;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+  display: none;
 }

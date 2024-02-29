@@ -76,5 +76,31 @@
     "newPrice": "160.000",
     "rating": 6,
     "reviews": 6170
+  },
+  {
+    "id": 7,
+    "name": "Produk 7",
+    "image": "product-07.jpg",
+    "price": 170000,
+    "brand": "Brand 7",
+    "timestamp": "29-12-2027",
+    "promo": "",
+    "oldPrice": "$78.00",
+    "newPrice": "170.000",
+    "rating": 7,
+    "reviews": 7170
+  },
+  {
+    "id": 8,
+    "name": "Produk 8",
+    "image": "product-08.jpg",
+    "price": 180000,
+    "brand": "Brand 8",
+    "timestamp": "29-12-2028",
+    "promo": "",
+    "oldPrice": "$88.00",
+    "newPrice": "180.000",
+    "rating": 8,
+    "reviews": 8170
   }
 ]

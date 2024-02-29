@@ -136,7 +136,7 @@ function removeProduct(event, productId) {
   }
   localStorage.setItem("cart", JSON.stringify(cartItems));
 
-  updateTotalHarga();
+  updateTotal();
   updateTotalQuantityUI();
 }
 

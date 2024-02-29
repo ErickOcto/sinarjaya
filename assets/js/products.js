@@ -64,5 +64,20 @@ fetch("products.json")
         cartItems.push({ id: productId, quantity: 1 });
     }
     localStorage.setItem('cart', JSON.stringify(cartItems));
+    showFloatingAlert(
+      "Berhasil ditambahkan ke keranjang, reload untuk perbarui keranjang"
+    );
     updateTotalQuantityUI();
+    updateTotalHarga();
+}
+
+function showFloatingAlert(message) {
+  let floatingAlert = document.getElementById("floating-alert");
+  floatingAlert.textContent = message;
+  floatingAlert.style.display = "block";
+
+  // Sembunyikan alert setelah beberapa detik
+  setTimeout(function () {
+    floatingAlert.style.display = "none";
+  }, 4000); // Tampilkan alert selama 3 detik
 }
