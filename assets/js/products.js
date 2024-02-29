@@ -64,22 +64,12 @@ fetch("products.json")
         cartItems.push({ id: productId, quantity: 1 });
     }
     localStorage.setItem('cart', JSON.stringify(cartItems));
-    showFloatingAlert(
-      "Berhasil ditambahkan ke keranjang, klik notif untuk perbarui keranjang"
-    );
+    showFloatingAlert();
     updateTotalQuantityUI();
     updateTotalHarga();
 }
 
-function showFloatingAlert(message) {
+function showFloatingAlert() {
   let floatingAlert = document.getElementById("floating-alert");
-  floatingAlert.textContent = message;
   floatingAlert.style.display = "block";
-  
-  let notificationSound = document.getElementById("notification-sound");
-  // notificationSound.play();
-  setTimeout(function () {
-    floatingAlert.style.display = "none";
-    // notificationSound.pause();
-  }, 3000);
 }

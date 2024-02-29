@@ -277,3 +277,7 @@ document.addEventListener("DOMContentLoaded", function () {
     window.open(whatsappLink);
   };
 });
+
+function reloadPage() {
+  window.location.reload();
+}
