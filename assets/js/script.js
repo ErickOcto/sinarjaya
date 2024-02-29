@@ -95,7 +95,6 @@ function openModal() {
 
 function closeModal() {
   document.getElementById('modalContainer').style.display = 'none';
-  window.location.reload();
 }
 
 function updateTotalHarga() {
@@ -136,6 +135,9 @@ function removeProduct(event, productId) {
     cartItems.splice(existingProductIndex, 1);
   }
   localStorage.setItem("cart", JSON.stringify(cartItems));
+
+  updateTotalHarga();
+  updateTotalQuantityUI();
 }
 
 let i = 1;

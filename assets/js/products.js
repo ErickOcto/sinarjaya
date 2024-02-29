@@ -64,5 +64,5 @@ fetch("products.json")
         cartItems.push({ id: productId, quantity: 1 });
     }
     localStorage.setItem('cart', JSON.stringify(cartItems));
-    window.location.reload();
+    updateTotalQuantityUI();
 }
