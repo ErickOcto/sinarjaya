@@ -48,6 +48,9 @@
       </div>
     </div>
 
+    <a id="floating-alert" class="floating-alert" onclick="reloadPage()">Reload atau klik notif untuk memperbarui data keranjang belanja</a>
+
+
     <div class="header-top" data-header>
       <div class="container">
 
@@ -78,21 +81,20 @@
           <ul class="navbar-list">
 
             <li>
-              <a href="./index.html#home" class="navbar-link has-after">Home</a>
+              <a href="#home" class="navbar-link has-after">Beranda</a>
             </li>
 
             <li>
-              <a href="./index.html#collection" class="navbar-link has-after">Collection</a>
+              <a href="#collection" class="navbar-link has-after">Koleksi</a>
             </li>
 
             <li>
-              <a href="./index.html#shop" class="navbar-link has-after">Shop</a>
+              <a href="#shop" class="navbar-link has-after">Belanja</a>
             </li>
 
             <li>
-              <a href="./index.html#offer" class="navbar-link has-after">Offer</a>
+              <a href="#offer" class="navbar-link has-after">Promo</a>
             </li>
-
 
           </ul>
         </nav>
@@ -114,7 +116,7 @@
     <div class="mobile-navbar" data-navbar>
 
       <div class="wrapper">
-        <a href="./index.html#" class="logo">
+        <a href="#" class="logo">
           <!-- <img src="./assets/images/logo.png" width="179" height="26" alt="Glowing"> -->
           SJ2
         </a>
@@ -127,19 +129,19 @@
       <ul class="navbar-list">
 
         <li>
-          <a href="./index.html#home" class="navbar-link" data-nav-link>Home</a>
+          <a href="#home" class="navbar-link" data-nav-link>Beranda</a>
         </li>
 
         <li>
-          <a href="./index.html#collection" class="navbar-link" data-nav-link>Collection</a>
+          <a href="#collection" class="navbar-link" data-nav-link>Koleksi</a>
         </li>
 
         <li>
-          <a href="./index.html#shop" class="navbar-link" data-nav-link>Shop</a>
+          <a href="#shop" class="navbar-link" data-nav-link>Belanja</a>
         </li>
 
         <li>
-          <a href="./index.html#offer" class="navbar-link" data-nav-link>Offer</a>
+          <a href="#offer" class="navbar-link" data-nav-link>Promo</a>
         </li>
 
       </ul>
@@ -148,9 +150,6 @@
 
     <div class="overlay" data-nav-toggler data-overlay></div>
   </div>
-
-
-
 
 
   <main>
@@ -198,16 +197,28 @@
 
           <li>
             <p class="footer-list-text">
-              Find a location nearest you. See <a href="#" class="link">Our Stores</a>
+              Temukan lokasi kami disekitar anda. Lihat cabang kami :<br>
             </p>
           </li>
 
           <li>
-            <p class="footer-list-text bold">+391 (0)35 2568 4593</p>
+            <p class="footer-list-text bold">
+              <a href="https://maps.app.goo.gl/mYd2sMMxFp4jNxVm7" class="link" target="_blank">Toko SinarJaya</a>
+            </p>
           </li>
 
           <li>
-            <p class="footer-list-text">hello@domain.com</p>
+            <p class="footer-list-text bold">
+              <a href="https://maps.app.goo.gl/7CLJABQRryvyaHcEA" class="link" target="_blank">Toko SinarJaya 2</a>
+            </p>
+          </li>
+
+          <li>
+            <p class="footer-list-text bold">+62 813-4836-2293</p>
+          </li>
+
+          <li>
+            <p class="footer-list-text">sinarjaya@gmail.com</p>
           </li>
 
         </ul>
@@ -215,23 +226,27 @@
         <ul class="footer-list">
 
           <li>
-            <p class="footer-list-title">Useful links</p>
+            <p class="footer-list-title">Link</p>
           </li>
 
           <li>
-            <a href="#" class="footer-link">New Products</a>
+            <a href="#home" class="footer-link">Home</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Best Sellers</a>
+            <a href="#collection" class="footer-link">Koleksi</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Bundle & Save</a>
+            <a href="#shop" class="footer-link">Belanja</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Online Gift Card</a>
+            <a href="#offer" class="footer-link">Promo</a>
+          </li>
+
+          <li>
+            <a href="/search.html" class="footer-link">Semua Produk</a>
           </li>
 
         </ul>
@@ -239,45 +254,43 @@
         <ul class="footer-list">
 
           <li>
-            <p class="footer-list-title">Infomation</p>
+            <p class="footer-list-title">Informasi</p>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Start a Return</a>
+            <a href="#" class="footer-link">Cek Barang</a>
+          </li>
+          
+          <li>
+            <a href="#" class="footer-link">Lokasi Toko</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Contact Us</a>
+            <a href="#" class="footer-link">Instagram</a>
           </li>
-
+          
           <li>
-            <a href="#" class="footer-link">Shipping FAQ</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Terms & Conditions</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Privacy Policy</a>
-          </li>
+            <a href="#" class="footer-link">Produk</a>
+          </li>          
 
         </ul>
 
         <div class="footer-list">
 
-          <p class="newsletter-title">Good emails.</p>
+          <p class="newsletter-title" style="margin-bottom: 10px;">Temukan Kami</p>
 
-          <p class="newsletter-text">
-            Enter your email below to be the first to know about new collections and product launches.
-          </p>
-
-          <form action="" class="newsletter-form">
+          <!-- <form action="" class="newsletter-form">
             <input type="email" name="email_address" placeholder="Enter your email address" required
               class="email-field">
 
             <button type="submit" class="btn btn-primary">Subscribe</button>
-          </form>
+          </form> -->
+
+          <p class="footer-link">
+            PWV5+2X5, Jl. Marsma R. Iswahyudi, Sepinggan, Kecamatan Balikpapan Selatan, Kota Balikpapan, Kalimantan Timur 76116
+          </p>
+
+          <iframe class="mapp" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d434.8388177814314!2d116.84312923793793!3d-1.2274235817770762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2df147d2aec5dd05%3A0xeff76d88b9bc5659!2sToko%20Sepeda%20Sinar%20Jaya%202!5e0!3m2!1sid!2sid!4v1709175420076!5m2!1sid!2sid" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
         </div>
 
@@ -293,25 +306,25 @@
           <ul class="social-list">
 
             <li>
-              <a href="#" class="social-link">
+              <a href="#" class="social-link" target="_blank">
                 <ion-icon name="logo-twitter"></ion-icon>
               </a>
             </li>
 
             <li>
-              <a href="#" class="social-link">
+              <a href="https://web.facebook.com/TokoSepedaSinarJaya2/?locale=id_ID&_rdc=1&_rdr" class="social-link" target="_blank">
                 <ion-icon name="logo-facebook"></ion-icon>
               </a>
             </li>
 
             <li>
-              <a href="#" class="social-link">
+              <a href="https://www.instagram.com/tokosepedasinarjaya2/?hl=id" class="social-link" target="_blank">
                 <ion-icon name="logo-instagram"></ion-icon>
               </a>
             </li>
 
             <li>
-              <a href="#" class="social-link">
+              <a href="#" class="social-link" target="_blank">
                 <ion-icon name="logo-youtube"></ion-icon>
               </a>
             </li>
@@ -352,28 +365,37 @@
     <div class="modal-content">
       <span class="close" onclick="closeModal()">&times;</span>
       <h2>Keranjang Belanja</h2>
-      <table id="produkTable">
-        <thead>
-          <tr>
-            <th>No</th>
-            <th>Gambar</th>
-            <th>Nama Produk</th>
-            <th>Jumlah</th>
-            <th>Harga</th>
-            <th>Aksi</th>
-          </tr>
-        </thead>
-        <tbody>
-        </tbody>
-      </table>
+      <div class="bungkuss">
+        <table id="produkTable">
+          <thead>
+            <tr>
+              <th>No</th>
+              <th>Gambar</th>
+              <th>Nama Produk</th>
+              <th>Jumlah</th>
+              <th>Harga</th>
+              <th>Aksi</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
       <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 14px;">
         <div>Total Harga : <h3 id="totalHarga"></h3></div>
-        <button id="whatsappButton" class="btn btn-secondary">Cek Ketersediaan Barang</button>
+        <a id="whatsappButton" class="btn btn-secondary" >Cek Barang</a>
       </div>
     </div>
   </div>
 
 
+<div id="modal" class="modal">
+  <div class="konten-modal">
+    <span class="tutup">&times;</span>
+    <p>Apakah Anda yakin ingin mengirim pesanan ini?</p>
+    <button id="kirimPesananBtn" class="tombol-kirim-pesanan">Kirim Pesanan</button>
+  </div>
+</div>
 
   <!-- 
     - Hero Section Manage

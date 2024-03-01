@@ -17,6 +17,34 @@ const bests = [
     rating: 5,
     reviews: 5170,
   },
+  {
+    title: "Facial cleanser",
+    image: "./assets/images/product-01.jpg",
+    promo: "",
+    oldPrice: "$38.00",
+    newPrice: "$29.00",
+    rating: 5,
+    reviews: 5170,
+  },
+  {
+    title: "Facial cleanser",
+    image: "./assets/images/product-01.jpg",
+    promo: "",
+    oldPrice: "$38.00",
+    newPrice: "$29.00",
+    rating: 5,
+    reviews: 5170,
+  },
+  {
+    title: "Facial cleanser",
+    image: "./assets/images/product-01.jpg",
+    promo: "",
+    oldPrice: "$38.00",
+    newPrice: "$29.00",
+    rating: 5,
+    reviews: 5170,
+  },
+  
 ];
 
 const shop = document.querySelector("#sectionShop");
